@@ -1,0 +1,100 @@
+.borde {
+    border: 1px solid black;
+}
+h1, h2, h3,h4, address {
+    font-family: 'Raleway';
+}
+.parr, label {
+    font-family: 'Raleway', cursive ;
+    font-size: 16px;
+    color: black;
+}
+input::-webkit-input-placeholder {
+    font-family: 'Raleway', cursive ;
+}
+input::-moz-placeholder {
+    font-family: 'Raleway', cursive ;
+}
+.img-head.img-responsive {
+    width: 160px;
+    height: 160px;
+}
+#pie {
+    background-color: #1f4e58;
+    color: white;
+}
+.icono {
+    font-size: 40px;
+}
+.navbar-default {
+  background-color: #1f4e58;
+}
+.navbar-brand {
+    font-size: 30px;
+    font-family: 'Mogra', cursive;
+}
+.navbar-default .navbar-brand {
+  color: #f9f9f9;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #f9f6f6;
+}
+.navbar-default .navbar-text {
+  color: #f9f9f9;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #f9f9f9;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #f9f6f6;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #f9f6f6;
+  background-color: #030404;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #f9f6f6;
+  background-color: #030404;
+}
+.navbar-default .navbar-toggle {
+  border-color: #030404;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #030404;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #f9f9f9;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #f9f9f9;
+}
+.navbar-default .navbar-link {
+  color: #f9f9f9;
+}
+.navbar-default .navbar-link:hover {
+  color: #f9f6f6;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #f9f9f9;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #f9f6f6;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #f9f6f6;
+    background-color: #030404;
+  }
+}
